@@ -2,14 +2,16 @@ html {
     scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
 }
 
-/* General Reset and Base Styles */
+/* Import Exo 2 font */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap');
+
+/* Apply the Exo 2 font to the body */
 body {
+    font-family: 'Exo 2', sans-serif;
     background-color: #8D089B;
-    font-family: "Blade Brotherhood", sans-serif;
     margin: 0;
     padding: 0;
 }
-
 * {
     margin: 0;
     padding: 0;
