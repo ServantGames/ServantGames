@@ -58,10 +58,6 @@ h2 {
     padding: 10px;
 }
 
-/* Section Styling */
-
-
-
 /* Home Section */
 #homeSection {
     width: 100%;
@@ -85,7 +81,7 @@ h2 {
 /* About Section */
 #aboutSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,23 +89,23 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/about-sesction-BG.jpg") no-repeat center;
 }
 
 #aboutSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
 
 /* Team Section */
 #teamSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,23 +114,23 @@ h2 {
     text-align: center;
     padding-top: 50px;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/team-section-BG.jpg") no-repeat center;
 }
 
 #teamSection h1 {
-    margin-bottom: 50px; /* Space between heading and content */
+    margin-bottom: 50px;
     font-size: 5rem;
 }
 
 /* Projects Section */
 #projectsSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,35 +138,35 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/projects-section-BG.jpg") no-repeat center;
 }
 
 #projectsSection img {
-    max-width: 50%; /* Adjust the image size */
+    max-width: 50%;
     height: auto;
-    border-radius: 15px; /* Apply rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for better visual effect */
-    transition: transform 0.3s ease; /* Optional: Smooth hover effect */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
 
 #projectsSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
 
-/*Up Coming Projects Section*/
 #projectsSection img:hover {
-    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    transform: scale(1.05);
 }
 
+/* Upcoming Projects Section */
 #upcomingProjectsSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,34 +174,35 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/upcoming-projects-section-BG.jpg") no-repeat center;
 }
 
 #upcomingProjectsSection img {
-    max-width: 50%; /* Adjust the image size */
+    max-width: 50%;
     height: auto;
-    border-radius: 15px; /* Apply rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for better visual effect */
-    transition: transform 0.3s ease; /* Optional: Smooth hover effect */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
 
 #upcomingProjectsSection img:hover {
-    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    transform: scale(1.05);
 }
 
 #upcomingProjectsSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
+
 /* Tutorials Section */
 #tutorialSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,23 +210,23 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/tutorial-section-BG.jpg") no-repeat center;
 }
 
 #tutorialSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
 
 /* Contact Section */
 #contactSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,19 +234,89 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/contact-section.jpg") no-repeat center;
 }
 
 #contactSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
 
+/* Contact Section Layout */
+.contact-container {
+    display: flex;
+    justify-content: flex-start; /* Changed from center to flex-start */
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px; /* Added padding for better spacing */
+}
+
+.contact-form {
+    flex: 0 1 500px; /* Changed width to be more appropriate for a form */
+    margin-right: auto; /* Pushes the form to the left */
+    text-align: left; /* Aligns form content to the left */
+}
+
+/* Form Input Styles */
+.form-group {
+    margin-bottom: 20px; /* Added spacing between form elements */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 12px 30px;
+    background: #ffffff;
+    color: #8D089B;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block; /* Makes button take full width */
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+/* Social Links Adjustment */
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    margin-left: auto; /* Pushes social links to the right */
+}
 /* Footer Section */
 #footerSection {
     background-color: #000000;
@@ -262,7 +329,7 @@ h2 {
 /* Projects Hells Angel Section */
 #hellsAngelSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,23 +337,23 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/HellsAngleBG.PNG") no-repeat center;
 }
 
 #hellsAngelSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
 
 /* Projects Digital Dodge Section */
 #digitalDodgeSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -294,23 +361,23 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/DigitalDodgeBG.PNG") no-repeat center;
 }
 
 #digitalDodgeSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
 
 /* Projects Pixel Panic Section */
 #pixelPanicSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -318,23 +385,23 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
                 url("images/PixelPanicBG.PNG") no-repeat center;
 }
 
 #pixelPanicSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
 
 /* Upcoming Projects Deranged Designs Section */
 #derangedDesignsSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -342,23 +409,22 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
-    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
-                /*url("images/PixelPanicBG.PNG") no-repeat center*/;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85));
 }
 
 #derangedDesignsSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
 
-/* Upcoming Projects  Cybernetic Clash Section */
+/* Upcoming Projects Cybernetic Clash Section */
 #cyberneticClashSection {
     width: 100%;
-    min-height: 100vh; /* Ensure sections take up full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -366,21 +432,19 @@ h2 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-size: contain; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
-    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
-                /*url("images/PixelPanicBG.PNG") no-repeat center*/;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85));
 }
 
 #cyberneticClashSection h1 {
-    margin-bottom: 200px; /* Space between heading and content */
+    margin-bottom: 200px;
     font-size: 5rem;
 }
-/* Media Queries */
 
-/* For tablets (768px - 1024px) */
+/* Media Queries */
 @media only screen and (max-width: 1024px) {
     h1 {
         font-size: 5vw;
@@ -392,36 +456,28 @@ h2 {
 
     #navbar {
         font-size: 3vw;
-        flex-direction: column; /* Stack nav links for tablets */
+        flex-direction: column;
     }
 
     section {
-        padding: 30px 20px; /* Add padding for better visibility */
-        min-height: auto; /* Let sections adjust based on content */
+        padding: 30px 20px;
+        min-height: auto;
     }
 }
 
-/* For mobile devices (up to 768px) */
 @media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 6vw;
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
     }
-
-    h2 {
-        font-size: 5vw;
+    
+    .contact-form {
+        width: 100%;
+        margin-right: 0;
     }
-
-    #navbar {
-        font-size: 4vw;
-        flex-direction: column; /* Stack nav links for mobile */
-    }
-
-    section {
-        padding: 40px 10px;
-        min-height: auto; /* Ensure content is fully visible on mobile */
-    }
-
-    #navbar a {
-        padding: 15px 0; /* Larger tap targets for mobile */
+    
+    .social-links {
+        margin-left: 0;
+        justify-content: center;
     }
 }
