@@ -1,0 +1,369 @@
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+/* General Reset and Base Styles */
+body {
+    background-color: #8D089B;
+    font-family: "Blade Brotherhood", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Anchor Styles */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+    font-size: 4vw; /* Responsive font size */
+}
+
+h2 {
+    font-size: 2.5vw; /* Responsive font size */
+}
+
+h2 {
+    font-size: 2vw; /* Responsive font size */
+}
+
+/* Navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5vw; /* Responsive font size */
+    display: flex;
+    justify-content: space-around; /* Align navbar items evenly */
+}
+
+#navbar a {
+    padding: 10px;
+}
+
+/* Section Styling */
+
+/* Home Section */
+#homeSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.6), rgba(141, 0, 155, 0.6)), 
+                url("images/home-section-BG.jpg") no-repeat center;
+}
+
+/* About Section */
+#aboutSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/about-sesction-BG.jpg") no-repeat center;
+}
+
+/* Team Section */
+#teamSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/team-section-BG.jpg") no-repeat center;
+}
+
+/* Projects Section */
+#projectsSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/projects-section-BG.jpg") no-repeat center;
+}
+
+#projectsSection img {
+    max-width: 50%; /* Adjust the image size */
+    height: auto;
+    border-radius: 15px; /* Apply rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for better visual effect */
+    transition: transform 0.3s ease; /* Optional: Smooth hover effect */
+}
+
+/*Up Coming Projects Section*/
+#projectsSection img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+#upcomingProjectsSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/upcoming-projects-section-BG.jpg") no-repeat center;
+}
+
+#upcomingProjectsSection img {
+    max-width: 50%; /* Adjust the image size */
+    height: auto;
+    border-radius: 15px; /* Apply rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for better visual effect */
+    transition: transform 0.3s ease; /* Optional: Smooth hover effect */
+}
+
+#upcomingProjectsSection img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+/* Tutorials Section */
+#tutorialSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/tutorial-section-BG.jpg") no-repeat center;
+}
+
+/* Contact Section */
+#contactSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/contact-section.jpg") no-repeat center;
+}
+
+
+/* Footer Section */
+#footerSection {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 0.9rem;   
+}
+
+/* Projects Hells Angel Section */
+#hellsAngelSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/HellsAngleBG.PNG") no-repeat center;
+}
+
+/* Projects Digital Dodge Section */
+#digitalDodgeSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/DigitalDodgeBG.PNG") no-repeat center;
+}
+
+/* Projects Pixel Panic Section */
+#pixelPanicSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                url("images/PixelPanicBG.PNG") no-repeat center;
+}
+
+/* Upcoming Projects Deranged Designs Section */
+#derangedDesignsSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                /*url("images/PixelPanicBG.PNG") no-repeat center*/;
+}
+
+/* Upcoming Projects  Cybernetic Clash Section */
+#cyberneticClashSection {
+    width: 100%;
+    min-height: 100vh; /* Ensure sections take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-size: contain; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-attachment: fixed; /* Parallax effect: make the background stay fixed when scrolling */
+    background: linear-gradient(0deg, rgba(141, 0, 155, 0.85), rgba(141, 0, 155, 0.85)), 
+                /*url("images/PixelPanicBG.PNG") no-repeat center*/;
+}
+
+/* Media Queries */
+
+/* For tablets (768px - 1024px) */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    #navbar {
+        font-size: 3vw;
+        flex-direction: column; /* Stack nav links for tablets */
+    }
+
+    section {
+        padding: 30px 20px; /* Add padding for better visibility */
+        min-height: auto; /* Let sections adjust based on content */
+    }
+}
+
+/* For mobile devices (up to 768px) */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    #navbar {
+        font-size: 4vw;
+        flex-direction: column; /* Stack nav links for mobile */
+    }
+
+    section {
+        padding: 40px 10px;
+        min-height: auto; /* Ensure content is fully visible on mobile */
+    }
+
+    #navbar a {
+        padding: 15px 0; /* Larger tap targets for mobile */
+    }
+}
